@@ -1,0 +1,211 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* 
+===================
+===================
+Colors Start
+===================
+===================
+*/
+:root {
+  --grey-light: #eee;
+  --white: white;
+  --blue-dark: rgb(25, 67, 107);
+  --black: black;
+}
+/* 
+===================
+===================
+Colors End
+===================
+===================
+*/
+
+/* 
+===================
+===================
+Typography Start
+===================
+===================
+*/
+
+html {
+  font-size: 31.25%;
+}
+
+@media (min-width: 425px) {
+  html {
+    font-size: 37.5%;
+  }
+}
+
+@media (min-width: 725px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (min-width: 1024px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+
+/* 
+===================
+===================
+Typography End
+===================
+===================
+*/
+
+/* 
+===================
+===================
+Information Start
+===================
+===================
+*/
+.information {
+  background: var(--grey-light);
+}
+
+.information__flex {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.5rem;
+  list-style: none;
+}
+
+.information a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: var(--blue-dark);
+}
+
+.line {
+  height: 3rem;
+  width: .1rem;
+  background: var(--white);
+}
+
+.information img {
+  height: 4rem;
+}
+
+.information button {
+  padding: .25rem;
+  background: none;
+  border: 1px solid var(--black);
+  border-radius: .5rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+/* 
+===================
+===================
+Information End
+===================
+===================
+*/
+
+/* 
+===================
+===================
+Logo Start
+===================
+===================
+*/
+.logo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo img {
+  height: 5rem;
+}
+/* 
+===================
+===================
+Logo End
+===================
+===================
+*/
+
+/* 
+===================
+===================
+Nav Start
+===================
+===================
+*/
+
+nav ul {
+  padding: 1rem 0;
+  gap: 3rem;
+  list-style: none;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav img {
+  height: 8rem;
+}
+
+nav a {
+  font-size: 1.5rem;
+  color: var(--black);
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+nav a:hover {
+  transform: scale(1.1);
+  color: var(--blue-dark);
+}
+/* 
+===================
+===================
+Nav End
+===================
+===================
+*/
+
+/* 
+===================
+===================
+galery Start
+===================
+===================
+*/
+.galery {
+  margin-top: 2rem;
+}
+
+.galery img {
+  width: 100%;
+}
+/* 
+===================
+===================
+galery End
+===================
+===================
+*/
