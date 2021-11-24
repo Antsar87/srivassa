@@ -343,7 +343,7 @@ Technavas Start
 ===================
 */
 .techcanvass {
-  margin-top: 10rem;
+  margin-top: 3rem;
   font-family: sans-serif;
 }
 
@@ -437,6 +437,67 @@ Technavas Start
 ===================
 ===================
 Technavas End
+===================
+===================
+*/
+
+/* 
+===================
+===================
+Courses Start
+===================
+===================
+*/
+.row {
+  margin: 3rem 0;
+}
+
+.row__flex {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.row__flex{
+  flex: 1;
+  font-family: sans-serif;
+  margin-top: 5rem;
+}
+
+.row__flex img {
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+}
+
+.row__flex h2 {
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+
+.row__flex h3 {
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.row__flex ul {
+  list-style: none;
+  margin-bottom: 2rem;
+}
+
+.row__flex ul p {
+  font-size: 1.5rem;
+  margin: 0;
+  text-align: start;
+}
+
+.row__flex p {
+  text-align: right;
+}
+/* 
+===================
+===================
+Courses End
 ===================
 ===================
 */
