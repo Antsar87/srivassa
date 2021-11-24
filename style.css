@@ -286,7 +286,7 @@ Testimonial start
 .testimonial__flex div {
   text-align: center;
   flex: 1;
-  padding: 0 5rem;
+  padding: 1rem 5rem;
   box-shadow: 0 0 1.2rem rgb(70, 68, 68);
   border-radius: 1rem;
 }
@@ -349,6 +349,7 @@ Technavas Start
 
 .techcanvass h3 {
   margin-top: 3rem;
+  font-size: 1.5rem;
 }
 
 .techcanvass__flex {
