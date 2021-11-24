@@ -334,3 +334,108 @@ Testimonial End
 ===================
 ===================
 */
+
+/* 
+===================
+===================
+Technavas Start
+===================
+===================
+*/
+.techcanvass {
+  margin-top: 10rem;
+  font-family: sans-serif;
+}
+
+.techcanvass h3 {
+  margin-top: 3rem;
+}
+
+.techcanvass__flex {
+  margin-top: 1rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.techcanvass ul {
+  list-style: none;
+  flex: 1;
+}
+
+.techcanvass li {
+  display: flex;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.techcanvass h2 {
+  margin-bottom: 0.7rem;
+}
+
+.techcanvass p {
+  font-size: 1.5rem;
+}
+
+.techcanvass img {
+  height: 10rem;
+  width: 10rem;
+}
+
+.techcanvass__form form {
+  text-align: center;
+  padding: 2rem 2rem;
+  border: 1px solid #eee;
+  margin-bottom: 2rem;
+}
+
+.techcanvass__form input {
+  display: block;
+  width: 100%;
+  padding: 1rem 1rem;
+  border: 1px solid rgb(133, 133, 133);
+}
+
+.techcanvass__form input:focus {
+  outline: none;
+}
+
+.techcanvass__form div {
+  display: flex;
+  margin: 2rem 0;
+}
+
+.techcanvass__form .gap {
+  gap: 2rem;
+}
+
+.techcanvass__form form button {
+  margin-top: 2rem;
+  padding: 1rem;
+  background: var(--blue-dark);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.techcanvass section {
+  text-align: center;
+  border: 1px solid #eee;
+  border-bottom: 0;
+  padding: 2rem 0;
+}
+
+.techcanvass section button {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: transparent;
+  color: rgb(0, 0, 0);
+  border: 1px solid black;
+  cursor: pointer;
+}
+/* 
+===================
+===================
+Technavas End
+===================
+===================
+*/
