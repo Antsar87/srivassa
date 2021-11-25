@@ -84,6 +84,7 @@ html {
   }
 }
 
+
 /* 
 ===================
 ===================
@@ -151,7 +152,7 @@ Logo Start
 ===================
 */
 .logo {
-  display: flex;
+  display: none;
   justify-content: space-between;
 }
 
@@ -173,6 +174,11 @@ Nav Start
 ===================
 ===================
 */
+
+.navhtml {
+  display: none;
+  height: 4rem;
+}
 
 nav ul {
   padding: 1rem 0;
@@ -200,6 +206,20 @@ nav a {
 nav a:hover {
   transform: scale(1.1);
   color: var(--blue-dark);
+}
+
+@media (min-width: 768px){
+  .navhtml {
+    display: block;
+  }
+
+  .navbar {
+    display: none !important;
+  }
+
+  .logo {
+    display: flex;
+  }
 }
 /* 
 ===================
@@ -451,7 +471,7 @@ Courses Start
 ===================
 ===================
 */
-.row {
+.rowhtml {
   margin: 3rem 0;
 }
 
